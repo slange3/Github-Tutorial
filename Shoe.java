@@ -6,6 +6,7 @@ public class Shoe {
     private double size;
     private double price;
     private String material;
+    private double mileage;
 
     // Constructor
     public Shoe(String brand, String model, String color, double size, double price, String material) {
@@ -64,6 +65,14 @@ public class Shoe {
 
     public void setMaterial(String material) {
         this.material = material;
+    }
+
+    public double getMileage() {
+        return mileage;
+    }
+
+    public void setMileage(double mileage) {
+        this.mileage = mileage;
     }
 
     // Method to display shoe details
